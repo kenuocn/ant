@@ -6,7 +6,7 @@ use common\Consts;
 
 return array(
     'server_mode' => 'Ant',
-    'project_name' => 'ant-config-center',
+    'project_name' => 'ant-proxy-center',
     'project' => [
         'debug_mode' => 0,                                  //打开调试模式
     ],

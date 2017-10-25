@@ -1,4 +1,5 @@
 <?php
+
 use ZPHP\ZPHP;
 use ZPHP\Socket\Adapter\Swoole;
 use ZPHP\Core\Config;
@@ -8,7 +9,7 @@ return array(
     'server_mode' => 'Ant',
     'project_name' => 'ant-config-center',
     'project' => [
-        'debug_mode' => 0,                                  //打开调试模式
+        'debug_mode' => 1,                                  //打开调试模式
     ],
     'socket' => array(
         'host' => '0.0.0.0',                          //socket 监听ip
